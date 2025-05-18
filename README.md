@@ -1,21 +1,20 @@
-# Merge Quest
+# Merge Quest (Web Version)
 
-A simple Python-based tile merging game using Pygame.
+A simple tile merging game built with Streamlit.
 
 ## How to Play
-- Click two adjacent tiles to try to merge them.
-- If 3 or more tiles of the same level are adjacent, they will merge into one of a higher level.
-- Gain points by merging.
-- Reach the target score to win!
+- Click two adjacent tiles to swap them.
+- If 3 or more similar tiles are adjacent, they merge and upgrade.
+- Score points by merging. Reach the goal to win.
 
-## Requirements
+## Installation
 
-Install pygame:
-```
-pip install pygame
+```bash
+pip install streamlit
 ```
 
 ## Run the game
-```
-python merge_quest_game.py
+
+```bash
+streamlit run merge_quest_web_app.py
 ```
